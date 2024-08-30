@@ -18,3 +18,8 @@ function getIncomeData() {
 function getExpenseData() {
   return data.expenses
 }
+
+
+export {
+  getIncomeData
+}

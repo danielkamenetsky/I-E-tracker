@@ -1,7 +1,9 @@
+import {getIncomeData} from "../js/data.js"
+
 /** Variables */
 
 const incomeList = document.getElementById('income-list')
-const expensesList = document.getElementById('expense-list')
+const expenseList = document.getElementById('expense-list')
 
 /** Cached element references */
 const incomeBtn = document.querySelector('#add-income-btn')
